@@ -117,7 +117,6 @@ const DeviceInfo = sequelize.define('DeviceInfo',{
         allowNull: false
 }})
 
-
 const TypeBrand = sequelize.define('TypeBrand',{
     id: {
         type: DataTypes.INTEGER,
